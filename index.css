@@ -1,0 +1,111 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	padding: 2em;
+	background-image: url("http://cdn.wallpapersafari.com/53/93/GPDqNw.jpg");
+	background-repeat: repeat;
+  border-top: solid 1em green;
+  border-bottom: solid 1em green;
+}
+
+.header-heading {
+	margin-top: -0.2em;
+  margin-bottom: -0.2em;
+	color: #FFFFFF;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #999999;
+  text-align: center;
+}
+
+.footer {
+	padding: 2em;
+	background-image: url("http://cdn.wallpapersafari.com/53/93/GPDqNw.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  border-top: solid 1em green;
+  border-bottom: solid 1em green;
+  width: 40%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.future-header {
+	margin-top: -0.2em;
+  margin-bottom: -0.2em;
+	color: #FFFFFF;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #999999;
+  line-height: 15px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 17px;
+  color: white;
+}
+
+body {
+  background-image: url("http://devfloat.net/wp-content/uploads/2014/01/localhost-wallpaper.jpg");
+  background-size: 35%;
+}
+
+img {
+  margin: 0 25px 0 250px;
+}
